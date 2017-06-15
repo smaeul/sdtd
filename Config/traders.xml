@@ -1,22 +1,5 @@
-<traders buy_markup="3.0" sell_markdown="0.2" quality_mod="1,2" currency_item="casinoCoin" >
-<!--
-When adding items or blocks to the list, check if they have an "EconomicValue".
-Most world-decoration blocks like "cntSuitcase" or "airConditioner" do not have values set.
-
-quality_mod: adjusts the price range of all items with a quality level.
-	Price of QL 1 item =  item.EconomicValue * traders.quality_mod(low)
-	Price of QL 600 item =  item.EconomicValue * traders.quality_mod(high)
--->
-
-	<!-- <trader_economy_limits>
-		<item name="hazmatBoots" min="2" max="10"/>
-		<item name="hazmatPants" min="2" max="10"/>
-		<item name="arrow" min="1" max="100"/>
-		<item name="steelArrow" min="1" max="100"/>
-	</trader_economy_limits>
-
--->
-
+<?xml version="1.0" encoding="UTF-8"?>
+<traders buy_markup="3.0" sell_markdown="0.2" quality_mod="1,2" currency_item="casinoCoin">
 	<trader_item_groups>
 		<trader_item_group name="tshirtAll">
 			<item name="tshirtBlack"/>
@@ -26,7 +9,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="tshirtRed"/>
 			<item name="tshirtWhite"/>
 		</trader_item_group>
-
 		<trader_item_group name="bandanaAll">
 			<item name="bandana"/>
 			<item name="bandanaBlack"/>
@@ -35,13 +17,11 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="bandanaGreen"/>
 			<item name="bandanaRed"/>
 		</trader_item_group>
-
 		<trader_item_group name="suitAll">
 			<item name="suitPantsBlack"/>
 			<item name="suitJacketBlack"/>
 			<item name="dressShoesBlack"/>
 		</trader_item_group>
-
 		<trader_item_group name="pantsAll">
 			<item name="denimPants"/>
 			<item name="blackDenimPants"/>
@@ -49,7 +29,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="redDenimPants"/>
 			<item name="armyPants"/>
 		</trader_item_group>
-
 		<trader_item_group name="skirtsAll">
 			<item name="skirt"/>
 			<item name="skirtRed"/>
@@ -58,7 +37,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="skirtBlue"/>
 			<item name="skirtBlack"/>
 		</trader_item_group>
-
 		<trader_item_group name="denimShortsPantsAll">
 			<item name="denimShortsPants"/>
 			<item name="denimShortsPantsRed"/>
@@ -67,7 +45,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="denimShortsPantsBlue"/>
 			<item name="denimShortsPantsBlack"/>
 		</trader_item_group>
-
 		<trader_item_group name="pufferCoatAll">
 			<item name="pufferCoat"/>
 			<item name="pufferCoatBlack"/>
@@ -75,7 +52,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="pufferCoatGreen"/>
 			<item name="pufferCoatRed"/>
 		</trader_item_group>
-
 		<trader_item_group name="shirtLongAll">
 			<item name="shirt"/>
 			<item name="shirtBlack"/>
@@ -85,7 +61,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="shirtRed"/>
 			<item name="armyShirt"/>
 		</trader_item_group>
-
 		<trader_item_group name="skullCapAll">
 			<item name="skullCap"/>
 			<item name="skullCapBlack"/>
@@ -94,7 +69,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="skullCapGreen"/>
 			<item name="skullCapRed"/>
 		</trader_item_group>
-
 		<trader_item_group name="ballCapAll">
 			<item name="ballCap"/>
 			<item name="ballCapBlack"/>
@@ -103,7 +77,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="ballCapGreen"/>
 			<item name="ballCapRed"/>
 		</trader_item_group>
-
 		<trader_item_group name="pressboyCapAll">
 			<item name="pressboyCapBlack"/>
 			<item name="pressboyCapBlue"/>
@@ -112,7 +85,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="pressboyCapRed"/>
 			<item name="pressboyCapWhite"/>
 		</trader_item_group>
-
 		<trader_item_group name="sweatshirtAll">
 			<item name="sweatshirt"/>
 			<item name="sweatshirtBlack"/>
@@ -121,7 +93,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="sweatshirtGreen"/>
 			<item name="sweatshirtRed"/>
 		</trader_item_group>
-
 		<trader_item_group name="hoodedSweatshirtAll">
 			<item name="hoodedSweatshirtBlack"/>
 			<item name="hoodedSweatshirtBlue"/>
@@ -130,7 +101,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="hoodedSweatshirtRed"/>
 			<item name="hoodedSweatshirtWhite"/>
 		</trader_item_group>
-
 		<trader_item_group name="tankTopAll">
 			<item name="tankTopBlue"/>
 			<item name="tankTopGreen"/>
@@ -138,16 +108,13 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="tankTopRed"/>
 			<item name="tankTopWhite"/>
 		</trader_item_group>
-
 		<trader_item_group name="cowboyHatAll">
 			<item name="cowboyHat"/>
 			<item name="blackCowboyHat"/>
 		</trader_item_group>
-
 		<trader_item_group name="overallsAll">
 			<item name="overalls"/>
 		</trader_item_group>
-
 		<trader_item_group name="hazmatGear" count="1,2">
 			<item name="hazmatBoots"/>
 			<item name="hazmatPants"/>
@@ -156,7 +123,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="hazmatMask"/>
 			<item name="militaryFiber" count="1,6" prob="2"/>
 		</trader_item_group>
-
 		<trader_item_group name="banditArmor">
 			<item name="heavyBanditGloves"/>
 			<item name="heavyBanditGasmask"/>
@@ -164,7 +130,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="heavyBanditLegArmor"/>
 			<item name="heavyBanditChestArmor"/>
 		</trader_item_group>
-
 		<trader_item_group name="hats">
 			<item group="cowboyHatAll"/>
 			<item group="skullCapAll"/>
@@ -172,7 +137,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="clothHat"/>
 			<item name="footballHelmet"/>
 		</trader_item_group>
-
 		<trader_item_group name="clothes">
 			<item group="pufferCoatAll"/>
 			<item group="skullCapAll"/>
@@ -199,7 +163,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="hazmatGear" prob=".1"/>
 			<item name="facialPiercings" prob=".1"/>
 		</trader_item_group>
-
 		<trader_item_group name="warmClothes">
 			<item group="pufferCoatAll"/>
 			<item group="skullCapAll"/>
@@ -211,7 +174,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="leatherDuster" prob=".6"/>
 			<item name="leatherDusterBlack" prob=".2"/>
 		</trader_item_group>
-
 		<trader_item_group name="lightArmor">
 			<item name="clothPants"/>
 			<item name="clothJacket"/>
@@ -223,7 +185,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="leatherGloves"/>
 			<item name="goggles"/>
 		</trader_item_group>
-
 		<trader_item_group name="heavyArmor">
 			<item name="ironBoots"/>
 			<item name="ironLegArmor"/>
@@ -232,7 +193,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="swatHelmet"/>
 			<item name="miningHelmet"/>
 		</trader_item_group>
-
 		<trader_item_group name="militaryArmor">
 			<item name="militaryGloves"/>
 			<item name="militaryHelmet"/>
@@ -242,13 +202,11 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="militaryFiber" count="1,5" prob="2"/>
 			<item name="nightvisionGoggles"/>
 		</trader_item_group>
-
 		<trader_item_group name="Armor">
 			<item group="clothes"/>
 			<item group="lightArmor" prob=".1"/>
 			<item group="heavyArmor" prob=".05"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsCommonParts">
 			<item name="partsPistol_barrel"/>
 			<item name="partsPistol_parts"/>
@@ -269,7 +227,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="parts44Magnum_grip" prob="0.3"/>
 			<item name="parts44Magnum_parts" prob="0.3"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsMilitaryParts">
 			<item name="partsMP5_barrel"/>
 			<item name="partsMP5_stock"/>
@@ -289,7 +246,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="partsRocketLauncher_parts"/>
 			<item name="rocketLauncherSchematic"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsMelee">
 			<item name="clubIron"/>
 			<item name="clubBarbed" prob="0.7"/>
@@ -297,12 +253,10 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="huntingKnife" prob="0.5"/>
 			<item name="machete" prob="0.2"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsCrossbow+ammo" count="all">
 			<item name="crossbow" count="1"/>
 			<item name="ironCrossbowBolt" count="10,30"/>
 		</trader_item_group>
-
 		<trader_item_group name="rareMedicine" count="1">
 			<item name="firstAidKit"/>
 			<item name="beaker"/>
@@ -310,7 +264,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="bloodDrawKit"/>
 			<item name="firstAidKitSchematic"/>
 		</trader_item_group>
-
 		<trader_item_group name="medicine" count="1">
 			<item name="painkillers"/>
 			<item name="firstAidBandage"/>
@@ -322,7 +275,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="splint"/>
 			<item group="rareMedicine"/>
 		</trader_item_group>
-
 		<trader_item_group name="questChallenge" count="1">
 			<item name="qc_silenceofthelambs" count="1"/>
 			<item name="qc_drunkanddisorderly" count="1"/>
@@ -348,7 +300,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="qt_sarah" count="1" prob="0.2"/>
 			<item name="qt_raphael" count="1" prob="0.2"/>
 		</trader_item_group>
-
 		<trader_item_group name="commonBooks" count="1">
 			<item name="crossbowSchematic"/>
 			<item name="huntingKnifeBook"/>
@@ -366,7 +317,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="scrapHelmetSchematic" prob=".7"/>
 			<item name="scrapGlovesSchematic" prob=".7"/>
 		</trader_item_group>
-
 		<trader_item_group name="rareBooks" count="1">
 			<item name="ak47Schematic"/>
 			<item name="augerSchematic"/>
@@ -390,18 +340,15 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="theEnforcerMagazine"/>
 			<item name="compoundBowSchematic"/>
 			<item name="herbalAntibioticsRecipe" prob="0.5"/>
-			<!-- <item name="macDyverBook" prob="1.5"/> -->
 		</trader_item_group>
-
 		<trader_item_group name="paintMagazines" count="1">
-			<item name="paintMagazineDecorations"/> <!-- traders -->
-			<item name="paintMagazineFaux"/> <!-- cntBookcase -->
-			<item name="paintMagazineMasonry"/> <!-- workingStiffs -->
-			<item name="paintMagazineMetal"/> <!-- garage -->
-			<item name="paintMagazineWallCoverings"/> <!-- nightstands -->
-			<item name="paintMagazineWoodAndRoofing"/> <!-- lumberjacks -->
+			<item name="paintMagazineDecorations"/>
+			<item name="paintMagazineFaux"/>
+			<item name="paintMagazineMasonry"/>
+			<item name="paintMagazineMetal"/>
+			<item name="paintMagazineWallCoverings"/>
+			<item name="paintMagazineWoodAndRoofing"/>
 		</trader_item_group>
-
 		<trader_item_group name="books" count="1">
 			<item group="questChallenge" prob="0.2"/>
 			<item group="rareBooks" prob="0.3"/>
@@ -409,7 +356,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="paintMagazines" prob=".09"/>
 			<item name="paintMagazineDecorations" prob=".09"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsGunsCommon">
 			<item name="gunPistol"/>
 			<item name="gunSawedOffPumpShotgun"/>
@@ -417,7 +363,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="gunHuntingRifle" prob="0.7"/>
 			<item name="nightvisionGoggles" prob="0.5"/>
 		</trader_item_group>
-
 		<trader_item_group name="weaponsGunsMilitary">
 			<item name="gunMP5" prob="0.8"/>
 			<item name="gunSniperRifle" prob="1"/>
@@ -425,7 +370,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="gunRocketLauncher" prob="0.4"/>
 			<item name="nightvisionGoggles" prob="0.6"/>
 		</trader_item_group>
-
 		<trader_item_group name="ammo">
 			<item name="9mmBullet" count="40,120"/>
 			<item name="762mmBullet" count="20,80"/>
@@ -438,19 +382,16 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="ironCrossbowBolt" count="20,60"/>
 			<item name="steelCrossbowBolt" count="20,60"/>
 		</trader_item_group>
-
 		<trader_item_group name="ammoSupplies">
-			<item name="bulletCasing" count="8,40"/> <!-- 5 -->
-			<item name="bulletTip" count="20,80"/> <!-- 5 -->
-			<item name="buckshot" count="20,60"/> <!-- 5 -->
-			<item name="gunPowder" count="5,30"/> <!-- 10 -->
-			<item name="paper" count="10,30"/> <!-- 10 -->
-			<item name="ironArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->
-			<item name="steelArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->>
-			<item name="feather" count="10,45"/> <!-- 5 -->
+			<item name="bulletCasing" count="8,40"/>
+			<item name="bulletTip" count="20,80"/>
+			<item name="buckshot" count="20,60"/>
+			<item name="gunPowder" count="5,30"/>
+			<item name="paper" count="10,30"/>
+			<item name="ironArrowHead" count="5,25" prob="0.05"/>
+			<item name="steelArrowHead" count="5,25" prob="0.05"/>
+			<item name="feather" count="10,45"/>
 		</trader_item_group>
-
-
 		<trader_item_group name="seeds">
 			<item name="plantedPotato1"/>
 			<item name="plantedCoffee1"/>
@@ -466,7 +407,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="treePlantedMaple1m" prob="0.3"/>
 			<item name="treePlantedWinterPine1m" prob="0.3"/>
 		</trader_item_group>
-
 		<trader_item_group name="cannedfood">
 			<item name="canBeef"/>
 			<item name="canCatfood"/>
@@ -484,7 +424,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="canTuna"/>
 			<item name="canPears"/>
 		</trader_item_group>
-
 		<trader_item_group name="foodSupplies">
 			<item name="egg" count="2,6"/>
 			<item name="rawMeat" count="2,4"/>
@@ -497,7 +436,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="mushrooms" count="4,8"/>
 			<item name="foodHoney" count="1,2"/>
 		</trader_item_group>
-
 		<trader_item_group name="preparedFood">
 			<item name="blueberryPie"/>
 			<item name="meatStew"/>
@@ -510,7 +448,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="baconAndEggs"/>
 			<item name="vegetableStew"/>
 		</trader_item_group>
-
 		<trader_item_group name="preparedDrink">
 			<item name="foodYuccaJuice"/>
 			<item name="bottledWater"/>
@@ -521,43 +458,40 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="grainAlcohol"/>
 			<item name="snowberryJuice"/>
 		</trader_item_group>
-
 		<trader_item_group name="landMines" count="1">
 			<item name="mineCandyTin" count="1,6"/>
 			<item name="mineHubcap" count="1,5"/>
 			<item name="mineAirFilter" count="1,4"/>
 		</trader_item_group>
-
 		<trader_item_group name="constructionSupplies">
-			<item name="cement" count="1,5"/> <!-- 70 -->
-			<item name="cobblestones" count="2,8"/> <!-- 70 -->
-			<item name="concreteMix" count="5,20"/> <!-- 20 -->
-			<item name="nail" count="3,15"/> <!-- 10 -->
-			<item name="rebarFrameBlock" count="5,20"/> <!-- 10 -->
+			<item name="cement" count="1,5"/>
+			<item name="cobblestones" count="2,8"/>
+			<item name="concreteMix" count="5,20"/>
+			<item name="nail" count="3,15"/>
+			<item name="rebarFrameBlock" count="5,20"/>
 			<item name="steelPolish" count="5,35" prob="2"/>
 			<item group="landMines" count="1" prob="0.3"/>
 		</trader_item_group>
-
-		<trader_item_group name="generalResources"> <!-- bundle size -->
-			<item name="wood" count="10,50"/> <!-- 50 -->
-			<item name="yuccaFibers" count="5,40"/> <!-- 50 -->
-			<item name="crushedSand" count="10,40"/> <!-- 50 -->
-			<item name="scrapIron" count="15,80"/> <!-- 10 -->
+		<trader_item_group name="generalResources">
+			<item name="wood" count="10,50"/>
+			<item name="yuccaFibers" count="5,40"/>
+			<item name="crushedSand" count="10,40"/>
+			<item name="scrapIron" count="15,80"/>
 			<item name="scrapPlastics" count="30,150"/>
 			<item name="forgedIron" count="5,50"/>
 			<item name="forgedSteel" count="5,50"/>
 			<item name="shortMetalPipe" count="5,20"/>
-			<item name="oilShale" count="20,60"/> <!-- 50 -->
+			<item name="oilShale" count="20,60"/>
 			<item name="animalHide" count="5,25"/>
 			<item name="leather" count="5,30"/>
-			<item name="scrapBrass" count="5,40"/> <!-- 10 -->
-			<item name="clayLump" count="5,25"/> <!-- 150 -->
-			<item name="scrapLead" count="5,90"/> <!-- 5 -->
+			<item name="scrapBrass" count="5,40"/>
+			<item name="clayLump" count="5,25"/>
+			<item name="scrapLead" count="5,90"/>
 			<item name="cloth" count="5,100"/>
 			<item name="militaryFiber" count="5,20" prob="0.6"/>
-			<item name="coal" count="20,60"/> <!-- 10 -->
-			<item name="potassiumNitratePowder" count="20,60"/> <!-- 10 -->
-			<item name="gunPowder" count="3,30"/> <!-- 10 -->
+			<item name="coal" count="20,60"/>
+			<item name="potassiumNitratePowder" count="20,60"/>
+			<item name="gunPowder" count="3,30"/>
 			<item name="oil" count="3,10"/>
 			<item name="animalFat" count="5,40"/>
 			<item name="bucket" prob="0.6"/>
@@ -570,7 +504,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="electronicParts" count="10,30" prob=".6"/>
 			<item name="insulator" count="20,60" prob=".6"/>
 		</trader_item_group>
-
 		<trader_item_group name="rareTools" count="1">
 			<item name="chainsaw"/>
 			<item name="auger" prob="0.3"/>
@@ -584,7 +517,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="fireaxeSteel"/>
 			<item name="shovelSteel"/>
 		</trader_item_group>
-
 		<trader_item_group name="tools" count="1">
 			<item name="pickaxeIron"/>
 			<item name="shovelIron"/>
@@ -604,7 +536,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="paintTool" prob="0.5"/>
 			<item name="wireTool"/>
 		</trader_item_group>
-
 		<trader_item_group name="minibikeParts" count="1">
 			<item name="minibikeWheels"/>
 			<item name="minibikeChassis"/>
@@ -613,24 +544,19 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="smallEngine" prob=".3"/>
 			<item name="shoppingBasketItem" prob=".3"/>
 		</trader_item_group>
-
 		<trader_item_group name="workstations" count="1">
 			<item name="forge"/>
 			<item name="workbench"/>
 			<item name="cementMixer"/>
 		</trader_item_group>
-
 		<trader_item_group name="decorativeCurtains" count="all">
 			<item name="curtain_top1Sheet3" count="4,15"/>
 			<item name="curtain_bottom1Sheet3" count="4,15"/>
 		</trader_item_group>
-
 		<trader_item_group name="decorativeBlinds" count="all">
 			<item name="miniblindTopSheet" count="4,15"/>
 			<item name="miniblindBottomSheet" count="4,15"/>
 		</trader_item_group>
-
-
 		<trader_item_group name="decorativeBlocks" count="1">
 			<item group="decorativeCurtains"/>
 			<item group="decorativeBlinds"/>
@@ -670,18 +596,16 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="window02" count="4,15"/>
 			<item name="shutters1Plate" count="4,15"/>
 		</trader_item_group>
-
 		<trader_item_group name="traderAlways" count="all">
-			<item name="gunPowder" count="5,25"/> <!-- 10 -->
+			<item name="gunPowder" count="5,25"/>
 			<item group="ammo" count="3"/>
 			<item group="ammoSupplies" count="2"/>
-			<item name="potassiumNitratePowder" count="2,5"/> <!-- 10 -->
+			<item name="potassiumNitratePowder" count="2,5"/>
 		</trader_item_group>
-
 		<trader_item_group name="traderGeneral" count="1">
 			<item name="beerBook" count="1" prob=".3"/>
 			<item name="plantedHop1" count="1,5" prob=".3"/>
-			<item name="paint" count="1,12"/> <!-- 50 -->
+			<item name="paint" count="1,12"/>
 			<item group="clothes" count="2,4"/>
 			<item group="weaponsCommonParts" count="1,3" prob="0.5"/>
 			<item group="weaponsMelee" count="1,3" prob="1.5"/>
@@ -701,7 +625,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="rareMedicine" count="1" prob="0.2"/>
 			<item group="medicine" count="1,2" prob="1"/>
 		</trader_item_group>
-
 		<trader_item_group name="traderElectrical" count="1">
 			<item name="electricParts" count="20,50" prob="1"/>
 			<item name="electronicParts" count="15,35" prob=".5"/>
@@ -730,7 +653,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="speaker" count="1,2" prob="1.0"/>
 			<item name="switch" count="3,9" prob="1.0"/>
 		</trader_item_group>
-
 		<trader_item_group name="traderOnlyItems" count="1">
 			<item name="beerBook" count="1"/>
 			<item name="plantedHop1" count="1,5"/>
@@ -738,58 +660,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="solarCell" count="1,2"/>
 			<item name="batterybankSchematic" count="1" prob=".5"/>
 		</trader_item_group>
-
 	</trader_item_groups>
-
-<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-tshirtAll
-bandanaAll
-pantsAll
-pufferCoatAll
-shirtLongAll
-skullCapAll
-sweatshirtAll
-tankTopAll
-cowboyHatAll
-hazmatGear
-banditArmor
-hats
-	clothes
-	warmClothes
-	lightArmor
-	heavyArmor
-militaryArmor
-	Armor
-commonWeaponParts
-militaryWeaponParts
-meleeWeapon
-crossbow+ammo
-rareMedicine
-medicine
-questChallenge
-commonBooks
-rareBooks
-books
-guns
-ammo
-ammoSupplies
-seeds
-cannedfood
-foodSupplies
-preparedFood
-preparedDrink
-constructionSupplies
-generalResources
-rareTools
-tools
-workstations
-
--->
-
-	<!-- Trader 1, carries better weapons at higher levels. -->
-	<!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
-	<trader_info id="1" min_inventory="40" max_inventory="80" min_items_swapped="20" max_items_swapped="20"
-		reset_interval="3" open_time="6:05" close_time="21:50">
+	<trader_info id="1" min_inventory="40" max_inventory="80" min_items_swapped="20" max_items_swapped="20" reset_interval="3" open_time="6:05" close_time="21:50">
 		<trader_items count="all">
 			<item group="traderAlways"/>
 			<item group="traderGeneral" count="4,8"/>
@@ -803,10 +675,9 @@ workstations
 			<item group="heavyArmor" count="0,2"/>
 			<item group="traderElectrical" count="1,2"/>
 		</trader_items>
-
-		<tier_items level="1,50" count="all"> <!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+		<tier_items level="1,50" count="all">
 			<item group="traderElectrical" count="2,3"/>
-			<item name="cntVendingMachine" count="0,1" />
+			<item name="cntVendingMachine" count="0,1"/>
 			<item group="tools" count="1"/>
 			<item group="rareTools" count="0,1"/>
 			<item group="weaponsCommonParts" count="1,3"/>
@@ -821,10 +692,9 @@ workstations
 			<item group="rareBooks" count="1,2"/>
 			<item group="traderOnlyItems" count="1"/>
 		</tier_items>
-
-		<tier_items level="50,251" count="all"> <!-- Stash Tier 2 -->
+		<tier_items level="50,251" count="all">
 			<item group="traderElectrical" count="2,3"/>
-			<item name="cntVendingMachine" count="1" />
+			<item name="cntVendingMachine" count="1"/>
 			<item group="tools" count="1,2"/>
 			<item group="rareTools" count="1,2"/>
 			<item group="weaponsCommonParts" count="2,4"/>
@@ -842,12 +712,11 @@ workstations
 			<item group="minibikeParts" count="0,1"/>
 			<item group="traderOnlyItems" count="2"/>
 		</tier_items>
-
-		<tier_items level="251,-1" count="all"> <!-- Stash Tier 3, requires Perk 3 + Player level 126 -->
+		<tier_items level="251,-1" count="all">
 			<item group="traderElectrical" count="3,4"/>
 			<item group="tools" count="1,2"/>
 			<item group="rareTools" count="3,4"/>
-			<item name="cntVendingMachine" count="2" />
+			<item name="cntVendingMachine" count="2"/>
 			<item group="weaponsCommonParts" count="2,5"/>
 			<item group="weaponsGunsCommon" count="2,4"/>
 			<item group="weaponsMilitaryParts" count="2,4"/>
@@ -869,80 +738,7 @@ workstations
 			<item name="batterybankSchematic" count="1"/>
 		</tier_items>
 	</trader_info>
-
-
-	<!-- Trader 2, carries better tools and construction material at higher levels. -->
-	<!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
-<!--
-	<trader_info id="2" min_inventory="40" max_inventory="80" min_items_swapped="20" max_items_swapped="20"
-		reset_interval="3" open_time="6:05" close_time="21:50">
-		<trader_items count="all">
-			<item group="traderAlways"/>
-			<item group="traderGeneral" count="4,8"/>
-			<item group="generalResources" count="11,17"/>
-			<item group="constructionSupplies" count="4,12"/>
-			<item group="decorativeBlocks" count="2,7"/>
-			<item group="tools" count="0,2"/>
-			<item group="weaponsCommonParts" count="0,2"/>
-			<item group="lightArmor" count="1,3"/>
-			<item group="traderElectrical" count="0,1"/>
-		</trader_items>
-
-		<tier_items level="1,25" count="1,3">
-			<item group="traderElectrical" count="1,2"/>
-			<item group="weaponsGunsCommon" count="1" prob="0.5"/>
-			<item group="constructionSupplies" count="2,3" prob="1"/>
-			<item group="generalResources" count="4,7" prob="1"/>
-			<item group="tools" count="1,2" prob="1"/>
-			<item group="rareTools" count="1" prob="0.5"/>
-			<item group="ammoSupplies" count="2,3" prob="0.4"/>
-			<item group="banditArmor" count="1" prob="0.4"/>
-			<item name="miningHelmet" prob="0.5"/>
-			<item group="ammo" count="1,2" prob="1"/>
-		</tier_items>
-
-		<tier_items level="25,50" count="1,4">
-			<item group="traderElectrical" count="2,3"/>
-			<item group="weaponsGunsCommon" count="1" prob="0.8"/>
-			<item group="weaponsGunsMilitary" count="1" prob=".2"/>
-			<item group="constructionSupplies" count="2,3" prob="1"/>
-			<item group="generalResources" count="3,4" prob="1"/>
-			<item group="tools" count="1,2" prob="1"/>
-			<item group="rareTools" count="1" prob="0.5"/>
-			<item group="ammoSupplies" count="2,3" prob="0.4"/>
-			<item group="banditArmor" count="1" prob="0.4"/>
-			<item group="hazmatGear" count="1" prob="0.2"/>
-			<item group="workstations" count="1" prob="0.3"/>
-			<item group="minibikeParts" count="1" prob="0.2"/>
-			<item name="miningHelmet" prob="0.5"/>
-			<item group="ammo" count="1,4" prob="1"/>
-		</tier_items>
-
-		<tier_items level="50,-1" count="2,6">
-			<item group="traderElectrical" count="3"/>
-			<item name="cntVendingMachine" count="1" prob="1" />
-			<item group="weaponsGunsCommon" count="1" prob="1"/>
-			<item group="weaponsGunsMilitary" count="1" prob=".3"/>
-			<item group="constructionSupplies" count="2,3" prob="1"/>
-			<item group="generalResources" count="3,4" prob="1"/>
-			<item group="tools" count="1,2" prob=".9"/>
-			<item group="rareTools" count="1" prob="0.6"/>
-			<item group="ammoSupplies" count="2,3" prob="0.4"/>
-			<item group="banditArmor" count="1" prob="0.4"/>
-			<item group="hazmatGear" count="1" prob="0.4"/>
-			<item group="workstations" count="1" prob="0.5"/>
-			<item group="minibikeParts" count="1" prob="0.4"/>
-			<item name="nightvisionGoggles" count="1" prob=".2" />
-			<item name="miningHelmet" prob="0.5"/>
-			<item group="ammo" count="2,4" prob="1"/>
-		</tier_items>
-	</trader_info>
--->
-
-	<!-- Player Owned - Vending Machine -->
-	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />
-
-	<!-- Vending Machines found in the world. -->
+	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true"/>
 	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="bottledWater" count="1,2"/>
@@ -955,8 +751,5 @@ workstations
 			<item name="canSoup" count="1,2"/>
 		</trader_items>
 	</trader_info>
-
-	<!-- Rented - Vending Machine -->
-	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />
-
+	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30"/>
 </traders>
