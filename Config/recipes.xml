@@ -1599,7 +1599,6 @@
 	<recipe name="splint" count="1">
 		<ingredient name="cloth" count="2"/>
 		<ingredient name="wood" count="2"/>
-		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="steelArrow" count="1">
 		<ingredient name="steelArrowHead" count="1"/>
