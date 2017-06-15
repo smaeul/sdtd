@@ -5,4 +5,5 @@
     <property name="Zoning" value="DevOnly" />
     <property name="TraderArea" value="False" />
     <property name="ExcludeDistantPOIMesh" value="True" />
+    <property name="DistantPOIYOffset" value="0" />
 </prefab>

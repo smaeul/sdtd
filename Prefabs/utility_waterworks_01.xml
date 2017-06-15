@@ -13,4 +13,5 @@
     <property name="SleeperVolumeGroup" value="S_ZomUtilityWorker_Med" />
     <property name="SleeperVolumeGameStageAdjust" value="" />
     <property name="SleeperIsLootVolume" value="False" />
+    <property name="DistantPOIYOffset" value="0" />
 </prefab>

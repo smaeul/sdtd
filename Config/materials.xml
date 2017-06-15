@@ -912,8 +912,8 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 </material>
 
 <material id="MglassBulletproof">
-	<property name="damage_category" value="stone" />
-	<property name="surface_category" value="stone" />
+	<property name="damage_category" value="glass" />
+	<property name="surface_category" value="glass" />
 	<property name="forge_category" value="glass" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="lightopacity" value="2" />

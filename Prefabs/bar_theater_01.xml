@@ -14,4 +14,5 @@
     <property name="SleeperVolumeGroup" value="S_BikerBar_Med,S_BikerBar_Med" />
     <property name="SleeperVolumeGameStageAdjust" value="," />
     <property name="SleeperIsLootVolume" value="False,False" />
+    <property name="DistantPOIYOffset" value="0" />
 </prefab>
