@@ -70,7 +70,8 @@
 			<window name="dragAndDropItemStack"/>
 		</window_group>
 		<window_group name="compass" actionSet="false">
-			<window name="windowCompass"/>
+			<window name="windowCompassRELXIX"/>
+			<window name="mapStatsHUD"/>
 		</window_group>
 		<window_group name="toolTip" actionSet="false">
 			<window name="toolTip"/>
@@ -90,6 +91,10 @@
 			<window name="HUDLeftStatBars" anchor="LeftBottom"/>
 			<window name="HUDRightStatBars" anchor="RightBottom"/>
 			<window name="windowQuestTracker" anchor="RightTop"/>
+			<window name="windowToolbeltNumbersHUD"/>
+			<window name="playerXPHUD"/>
+			<window name="playerStatsHUD"/>
+			<window name="playerStatsBarsHUD"/>
 		</window_group>
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
 			<window name="windowVehicle"/>
