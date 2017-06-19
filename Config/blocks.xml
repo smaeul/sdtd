@@ -9249,13 +9249,12 @@
 		</property>
 	</block>
 	<block id="1040" name="flagstoneGable">
-		<property name="Material" value="stone"/>
+		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Model" value="wedge_tip_half"/>
 		<property name="Shape" value="New"/>
-		<property name="Texture" value="226"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
-		<drop event="Harvest" name="rockSmall" count="16"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cobblestoneGable"/>
+		</property>
 	</block>
 	<block id="1041" name="pouredConcreteStairs25CornerCNR">
 		<property name="Extends" value="pouredConcreteMaster"/>
@@ -13032,6 +13031,60 @@
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<drop event="Destroy" name="brokenGlass" count="1" prob="1"/>
+	</block>
+	<block id="1490" name="cobblestoneGable">
+		<property name="Extends" value="cobblestoneMaster"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredConcreteGable"/>
+		</property>
+	</block>
+	<block id="1491" name="pouredConcreteGable">
+		<property name="Extends" value="pouredConcreteMaster"/>
+		<property name="IsDeveloper" value="true"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property name="UpgradeRated.ToBlock" value="concreteGable"/>
+	</block>
+	<block id="1492" name="concreteGable">
+		<property name="Extends" value="concreteMaster"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="pouredRConcreteGable"/>
+		</property>
+	</block>
+	<block id="1493" name="pouredRConcreteGable">
+		<property name="Extends" value="pouredRConcreteMaster"/>
+		<property name="IsDeveloper" value="true"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property name="UpgradeRated.ToBlock" value="rConcreteGable"/>
+	</block>
+	<block id="1494" name="rConcreteGable">
+		<property name="Extends" value="rConcreteMaster"/>
+		<property name="DowngradeBlock" value="concreteGable"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="steelGable"/>
+		</property>
+	</block>
+	<block id="1495" name="steelGable">
+		<property name="Extends" value="steelMaster"/>
+		<property name="DowngradeBlock" value="rConcreteGable"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="stainlessSteelGable"/>
+		</property>
+	</block>
+	<block id="1496" name="stainlessSteelGable">
+		<property name="Extends" value="stainlessSteelMaster"/>
+		<property name="DowngradeBlock" value="rConcreteGable"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Shape" value="New"/>
 	</block>
 	<block id="1500" name="rebarFrameCNRInside">
 		<property name="Extends" value="rebarFrameMaster"/>
