@@ -522,6 +522,9 @@
 	<recipe name="flagstoneCNRFull" count="1">
 		<ingredient name="cobblestones" count="3"/>
 	</recipe>
+	<recipe name="flagstoneGable" count="1">
+		<ingredient name="cobblestones" count="3"/>
+	</recipe>
 	<recipe name="flagstoneHalf" count="1">
 		<ingredient name="cobblestones" count="3"/>
 	</recipe>
@@ -626,6 +629,9 @@
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="pouredConcreteEighth" count="1">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="pouredConcreteGable" count="1">
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="pouredConcreteHalf" count="1">
