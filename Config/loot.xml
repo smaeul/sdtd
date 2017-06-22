@@ -1172,7 +1172,7 @@
 	<item name="pickaxeSteel"/>
 	<item name="fireaxeSteel"/>
 	<item name="shovelSteel"/>
-	<item name="calipers" prob="0.09"/>
+	<!-- <item name="calipers" prob="0.09"/> -->
 	<item name="toolAndDieSet" prob="0.09"/>
 	<item group="nailgun+parts"/>
 </lootgroup>
@@ -1211,7 +1211,7 @@
 	<item name="ironDoor1_v1"/>
 	<item name="sledgehammer"/>
 	<item group="nailgun+parts"/>
-	<item name="calipers" prob="0.67"/>
+	<!-- <item name="calipers" prob="0.67"/> -->
 	<item name="toolAndDieSet" prob="0.67"/>
 	<item group="rareTools"/>
 	<item group="automotive" prob="2"/>
@@ -1353,7 +1353,7 @@
 	<item name="nail" count="10,40" prob=".3"/>
 	<item name="forgedIron" count="5,15" prob=".25"/>
 	<item name="forgedSteel" count="3,12" prob=".2"/>
-	<item name="calipers" prob="0.15"/>
+	<!-- <item name="calipers" prob="0.15"/> -->
 	<item name="minibikeChassis" prob=".4"/>
 	<item name="minibikeSeat" prob=".4"/>
 	<item name="minibikeHandlebars" prob=".4"/>
@@ -2058,7 +2058,7 @@
 	<item name="footballHelmet" prob=".3"/>
 	<item name="clawHammer" prob=".3"/>
 	<item name="wrench" prob=".3"/>
-	<item name="calipers" prob="0.1"/>
+	<!-- <item name="calipers" prob="0.1"/> -->
 	<item name="toolAndDieSet" prob="0.1"/>
 	<item group="minibikeParts" prob="6"/>
 </lootcontainer>

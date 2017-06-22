@@ -596,7 +596,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="repairKit" count="1,4"/>
 			<item name="wood" count="50,250"/>
 			<item name="anvil" count="1"/>
-			<item name="calipers" prob="0.6"/>
+			<!-- <item name="calipers" prob="0.6"/> -->
 			<item name="toolAndDieSet" prob="0.6"/>
 			<item name="forgedIron" count="2,8" prob="0.21"/>
 			<item name="forgedSteel" count="2,8" prob="0.12"/>
@@ -705,9 +705,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		<trader_item_group name="traderElectrical" count="1">
 			<item name="electricParts" count="20,50" prob="1"/>
 			<item name="electronicParts" count="15,35" prob=".5"/>
-			<item name="batterybankSchematic" count="1" prob=".1"/>
 			<item name="generatorbank" count="1" prob="1"/>
-			<item name="solarbank" count="1" prob=".02"/>
 			<item name="batterybank" count="1" prob=".7"/>
 			<item name="autoTurret" count="1,2" prob=".5"/>
 			<item name="shotgunTurret" count="1,3" prob=".7"/>
@@ -731,7 +729,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="switch" count="3,9" prob="1.0"/>
 		</trader_item_group>
 
-		<trader_item_group name="traderOnlyItems" count="1">
+		<trader_item_group name="stashOnlyItems" count="1">
 			<item name="beerBook" count="1"/>
 			<item name="plantedHop1" count="1,5"/>
 			<item name="solarbank" count="1"/>
@@ -819,7 +817,7 @@ workstations
 			<item group="paintMagazines" count="0,1"/>
 			<item group="commonBooks" count="2,3"/>
 			<item group="rareBooks" count="1,2"/>
-			<item group="traderOnlyItems" count="1"/>
+			<item group="stashOnlyItems" count="1"/>
 		</tier_items>
 
 		<tier_items level="50,251" count="all"> <!-- Stash Tier 2 -->
@@ -840,7 +838,7 @@ workstations
 			<item group="rareBooks" count="2"/>
 			<item name="miningHelmet"/>
 			<item group="minibikeParts" count="0,1"/>
-			<item group="traderOnlyItems" count="2"/>
+			<item group="stashOnlyItems" count="2"/>
 		</tier_items>
 
 		<tier_items level="251,-1" count="all"> <!-- Stash Tier 3, requires Perk 3 + Player level 126 -->

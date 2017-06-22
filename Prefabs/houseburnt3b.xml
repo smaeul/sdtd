@@ -12,4 +12,5 @@
     <property name="SleeperVolumeGroup" value="S_Default_S,S_Default_S" />
     <property name="SleeperVolumeGameStageAdjust" value="," />
     <property name="SleeperIsLootVolume" value="False,False" />
+    <property name="DistantPOIYOffset" value="0" />
 </prefab>
