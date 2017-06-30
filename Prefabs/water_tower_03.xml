@@ -5,6 +5,7 @@
     <property name="Zoning" value="ResidentialOld,ResidentialNew,Industrial" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="city,town,rural" />
+	<property name="YOffset" value="-1" />
     <property name="TraderArea" value="False" />
     <property name="ExcludeDistantPOIMesh" value="False" />
 </prefab>
