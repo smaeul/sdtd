@@ -7782,7 +7782,6 @@
 		<property name="Count" value="3"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="waterSource8"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
@@ -7796,7 +7795,6 @@
 		<property name="Count" value="3"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="waterSource8"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
@@ -13056,7 +13054,6 @@
 		<property name="Class" value="Liquidv2"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Count" value="8"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
