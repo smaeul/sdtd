@@ -15,7 +15,8 @@
 			<hub_rule name="townLarge" prob="0.3"/>
 			<hub_rule name="citySmall" prob="0.1"/>
 			<hub_rule name="cityLarge" prob="0.1"/>
-			<hub_rule name="rural" prob="0.3"/>
+			<hub_rule name="ruralSmall" prob="0.3"/>
+			<hub_rule name="ruralLarge" prob="0.3"/>
 			<wilderness_rule name="wildernessDefault"/>
 		</cell_rule>
 		<cell_rule name="customHubTest">
