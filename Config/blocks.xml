@@ -1035,7 +1035,6 @@
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="ImposterExclude" value="true"/>
-		<property name="ImposterExclude" value="true"/>
 		<property name="IsPlant" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LightOpacity" value="0"/>
@@ -2436,7 +2435,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="LightOpacity" value="0"/>
-		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
 		<property name="Shape" value="New"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -3420,7 +3418,6 @@
 		<property name="Material" value="wood_regular"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="HousingDecor/Boarded_windows" param1="main_mesh"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Tag" value="Window"/>
@@ -14806,7 +14803,6 @@
 		<property name="SlotItem" value="smallEngine"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="Stacknumber" value="1"/>
 		<property name="TakeDelay" value="15"/>
 		<property class="RepairItems">
 			<property name="electricParts" value="8"/>
@@ -14978,7 +14974,6 @@
 			<property name="forgedIron" value="3"/>
 		</property>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="5,10"/>
@@ -15018,7 +15013,6 @@
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="Damage" value="20"/>
 		<property name="DamageReceived" value="4"/>
-		<property name="EconomicValue" value="444"/>
 		<property name="EconomicValue" value="444"/>
 		<property name="Group" value="Science"/>
 		<property name="HandleFace" value="Bottom"/>
@@ -15178,7 +15172,6 @@
 	<block id="2021" name="industrialLight01_player">
 		<property name="Extends" value="industrialLight01"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="industrialLight01"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 		<property name="HandleFace" value="South"/>
@@ -15196,7 +15189,6 @@
 	<block id="2022" name="porchLight01_player">
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="porchLight01"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 		<property name="HandleFace" value="West"/>
@@ -15205,7 +15197,6 @@
 	</block>
 	<block id="2023" name="ceilingLight01_player">
 		<property name="Extends" value="porchLight01"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight01"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
@@ -15219,7 +15210,6 @@
 	<block id="2024" name="ceilingLight02_player">
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight02"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 		<property name="HandleFace" value="Top"/>
@@ -15230,7 +15220,6 @@
 	<block id="2025" name="wallLight01_player">
 		<property name="Extends" value="porchLight01"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="wallLight01"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 		<property name="HandleFace" value="South"/>
@@ -15240,7 +15229,6 @@
 	</block>
 	<block id="2026" name="ceilingLight07_player">
 		<property name="Extends" value="porchLight01"/>
-		<property name="CreativeMode" value="Player"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="ceilingLight07"/>
 		<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
