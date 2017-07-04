@@ -899,7 +899,6 @@
 		<property name="Collide" value="melee"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="blueberrySeed"/>
-		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="EconomicValue" value="12"/>
@@ -6421,7 +6420,6 @@
 		<property name="Model" value="Entities/Trees/Red_Maple80Prefab"/>
 		<property name="ModelOffset" value="0,-0.3,0"/>
 		<property name="MultiBlockDim" value="1,6,1"/>
-		<property name="ParticleOnDeath" value="treeGib_birch"/>
 		<property name="ParticleOnDeath" value="treeGib_maple_17m"/>
 		<property name="PlantGrowing.FertileLevel" value="5"/>
 		<property name="PlantGrowing.GrowthRate" value="1"/>
@@ -7764,7 +7762,6 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="waterSource8"/>
 		<property name="Map.Color" value="119,136,204"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
@@ -7778,7 +7775,6 @@
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="waterSource8"/>
 		<property name="Map.Color" value="119,136,204"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
@@ -12897,7 +12893,6 @@
 		<property name="DescriptionKey" value="bedGroupDesc"/>
 		<property name="EconomicValue" value="2600"/>
 		<property name="FallDamage" value="false"/>
-		<property name="Group" value="Building"/>
 		<property name="Group" value="Building,Decor/Miscellaneous"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Material" value="furniture"/>
@@ -12975,7 +12970,6 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Count" value="8"/>
 		<property name="Map.Color" value="119,136,204"/>
-		<property name="Map.Color" value="20,20,120"/>
 		<property name="Material" value="water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
@@ -14872,7 +14866,6 @@
 		<property name="RequiredPower" value="0"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Stacknumber" value="250"/>
-		<property name="Stacknumber" value="40"/>
 		<property name="TakeDelay" value="5"/>
 		<property class="RepairItems">
 			<property name="electricParts" value="1"/>
@@ -15058,7 +15051,6 @@
 		<property name="RequiredPower" value="0"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Stacknumber" value="250"/>
-		<property name="Stacknumber" value="40"/>
 		<property name="TakeDelay" value="5"/>
 		<property class="RepairItems">
 			<property name="electricParts" value="4"/>
