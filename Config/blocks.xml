@@ -7794,13 +7794,10 @@
 		</property>
 	</block>
 	<block id="830" name="woodHalf">
+		<property name="Extends" value="woodMaster"/>
 		<property name="DescriptionKey" value="buildingBlockGroupDesc"/>
-		<property name="EconomicBundleSize" value="20"/>
-		<property name="EconomicValue" value="10"/>
-		<property name="Material" value="wood_regular"/>
 		<property name="Model" value="cube_half"/>
 		<property name="Shape" value="New"/>
-		<property name="Texture" value="241"/>
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="831" name="flagstoneWedgeTipCNRFullBottom">
