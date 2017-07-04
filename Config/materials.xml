@@ -537,7 +537,7 @@
 		<property name="stepsound" value="stone"/>
 	</material>
 	<material id="Mtallgrass">
-		<property name="damage_category" value="earth"/>
+		<property name="damage_category" value="wood"/>
 		<property name="particle_category" value="xt_tallgrass"/>
 		<property name="particle_destroy_category" value="xt_tallgrass"/>
 		<property name="surface_category" value="plant"/>
