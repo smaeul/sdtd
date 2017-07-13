@@ -25,7 +25,7 @@
 
 <quests>
 	<!-- Basic Survival 1 - Craft a Bedroll /> -->
-	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_map_bed" category_key="quest">
+	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_map_bed" category_key="quest" difficulty="veryeasy" offer_key="quest_BasicSurvival_offer">
 		<action type="ShowTip" value="tutorialTipQuest02" />
 		<action type="TrackQuest" />
 
@@ -50,7 +50,7 @@
     </quest>
 
 	<!-- Basic Survival 3 - Craft Plant Fiber Clothing /> -->
-	<quest id="quest_BasicSurvival3" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival3" subtitle_key="quest_BasicSurvival3_subtitle" description_key="quest_BasicSurvival3_description" icon="ui_game_symbol_tailoring" category_key="quest">
+	<quest id="quest_BasicSurvival3" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival3" subtitle_key="quest_BasicSurvival3_subtitle" description_key="quest_BasicSurvival3_description" icon="ui_game_symbol_tailoring" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="yuccaFibers" value="35" />
 		<objective type="Craft" id="plantFiberPants" value="1" />
 		<objective type="Craft" id="plantFiberShirt" value="1" />
@@ -62,7 +62,7 @@
     </quest>
 
 	<!-- Basic Survival 4 - Wear Plant Fiber Clothing /> -->
-	<quest id="quest_BasicSurvival4" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival4" subtitle_key="quest_BasicSurvival4_subtitle" description_key="quest_BasicSurvival4_description" icon="ui_game_symbol_shirt" category_key="quest">
+	<quest id="quest_BasicSurvival4" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival4" subtitle_key="quest_BasicSurvival4_subtitle" description_key="quest_BasicSurvival4_description" icon="ui_game_symbol_shirt" category_key="quest" difficulty="veryeasy">
 		<objective type="Wear" id="plantFiberPants" />
 		<objective type="Wear" id="plantFiberShirt" />
 		<objective type="Wear" id="plantFiberHood" />
@@ -73,7 +73,7 @@
     </quest>
 
 	<!-- Basic Survival 5 - Craft a Wooden Club /> -->
-	<quest id="quest_BasicSurvival5" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival5" subtitle_key="quest_BasicSurvival5_subtitle" description_key="quest_BasicSurvival5_description" icon="ui_game_symbol_club" category_key="quest">
+	<quest id="quest_BasicSurvival5" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival5" subtitle_key="quest_BasicSurvival5_subtitle" description_key="quest_BasicSurvival5_description" icon="ui_game_symbol_club" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="6" />
 		<objective type="Craft" id="clubWood" value="1" />
 
@@ -81,7 +81,7 @@
     </quest>
 
 	<!-- Basic Survival 6 - Craft Bow & Arrows /> -->
-	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_archery" category_key="quest">
+	<quest id="quest_BasicSurvival6" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival6" subtitle_key="quest_BasicSurvival6_subtitle" description_key="quest_BasicSurvival6_description" icon="ui_game_symbol_archery" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="10" />
 		<objective type="FetchKeep" id="yuccaFibers" value="3" />
 		<objective type="FetchKeep" id="feather" value="2" />
@@ -93,7 +93,7 @@
     </quest>
 
 	<!-- Basic Survival 7 - Start a Base /> -->
-	<quest id="quest_BasicSurvival7" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival7" subtitle_key="quest_BasicSurvival7_subtitle" description_key="quest_BasicSurvival7_description" icon="ui_game_symbol_map_house" category_key="quest">
+	<quest id="quest_BasicSurvival7" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival7" subtitle_key="quest_BasicSurvival7_subtitle" description_key="quest_BasicSurvival7_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="45" />
 		<objective type="Craft" id="woodFrameBlock" value="3" />
 		<objective type="BlockPlace" id="woodFrameBlock" value="3" />
@@ -103,7 +103,7 @@
     </quest>
 
 	<!-- Basic Survival 8 - Build a Campfire /> -->
-	<quest id="quest_BasicSurvival8" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival8" subtitle_key="quest_BasicSurvival8_subtitle" description_key="quest_BasicSurvival8_description" icon="ui_game_symbol_campfire" category_key="quest">
+	<quest id="quest_BasicSurvival8" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival8" subtitle_key="quest_BasicSurvival8_subtitle" description_key="quest_BasicSurvival8_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="rockSmall" value="8" />
 		<objective type="Craft" id="campfire" value="1" />
 		<objective type="BlockPlace" id="campfire" value="1" />
@@ -114,7 +114,7 @@
     </quest>
 
 	<!-- White River Citizen 1 - Journey to Settlement -->
-	<quest id="quest_whiteRiverCitizen1" group_name_key="quest_WhiteRiverCitizen" name_key="quest_WhiteRiverCitizen1" subtitle_key="quest_WhiteRiverCitizen1_subtitle" description_key="quest_WhiteRiverCitizen1_description" icon="ui_game_symbol_map_trader" category_key="quest">
+	<quest id="quest_whiteRiverCitizen1" group_name_key="quest_WhiteRiverCitizen" name_key="quest_WhiteRiverCitizen1" subtitle_key="quest_WhiteRiverCitizen1_subtitle" description_key="quest_WhiteRiverCitizen1_description" icon="ui_game_symbol_map_trader" category_key="quest" difficulty="medium">
 		<objective type="Goto" id="trader" value="5" />
 
 		<reward type="SkillPoints" value="5" />

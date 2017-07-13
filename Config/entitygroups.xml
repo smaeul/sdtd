@@ -282,10 +282,6 @@
 
 	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="invisibleAnimal" prob="6" />
-		<entity name="animalRabbit" />
-		<entity name="animalChicken" />
-		<entity name="animalBoar" />
-		<entity name="animalStag" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalSnake" />
 		<entity name="animalWolf" />
