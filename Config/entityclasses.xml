@@ -1981,7 +1981,7 @@
 	<property name="Faction" value="none"/>
 </entity_class>
 
-<entity_class name="invisibleAnimal"> <!-- A hack to thin the amount of animals spawned -->
+<entity_class name="invisibleAnimal"> <!-- A hack to thin the amount of animals spawned (friendly animals) -->
 	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
@@ -1989,6 +1989,18 @@
 	<property name="Parent" value="Animals"/>
 	<property name="TimeStayAfterDeath" value="1"/>
 	<property name="IsEnemyEntity" value="false"/>
+	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="invisibleAnimalEnemy"> <!-- A hack to thin the amount of animals spawned (enemy animals) -->
+	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Animals"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<property name="IsEnemyEntity" value="true"/>
 	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
 	<property name="Faction" value="none"/>
 </entity_class>
