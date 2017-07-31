@@ -17,7 +17,7 @@
 			<window name="GamepadCallouts"/>
 		</window_group>
 		<window_group name="rwgeditor" controller="XUiC_RWGEditorWindowGroup">
-			<window name="windowRWGPreview"/>
+			<window name="windowRWGPreviewer"/>
 		</window_group>
 		<window_group name="messageBox" controller="MessageBoxWindowGroup">
 			<window name="messageBox"/>
