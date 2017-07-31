@@ -2,17 +2,20 @@
 <xui>
 	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
 		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
 		</window_group>
 		<window_group name="character" controller="XUiC_CharacterSheetWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="CharacterFrameWindow"/>
 			<window name="buffInfoPanel"/>
 			<window name="PlayerStatsWindow"/>
 			<window name="ActiveBuffsWindow"/>
 		</window_group>
 		<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -22,6 +25,7 @@
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -32,6 +36,7 @@
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -39,6 +44,7 @@
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -47,6 +53,7 @@
 			<window name="windowCombine"/>
 		</window_group>
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -55,10 +62,12 @@
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowLooting"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="creative" controller="XUiC_CreativeWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowCreative"/>
 		</window_group>
 		<window_group name="backpack" actionSet="false">
@@ -70,7 +79,9 @@
 			<window name="dragAndDropItemStack"/>
 		</window_group>
 		<window_group name="compass" actionSet="false">
-			<window name="windowCompass"/>
+			<window name="windowCompassRELXIX"/>
+			<window name="mapStatsHUD"/>
+			<window name="playerSkillPointsHUDBar"/>
 		</window_group>
 		<window_group name="toolTip" actionSet="false">
 			<window name="toolTip"/>
@@ -86,12 +97,17 @@
 			<window name="windowTimer"/>
 		</window_group>
 		<window_group name="toolbelt" actionSet="false">
+			<window name="windowToolbeltNumbersHUD"/>
+			<window name="playerXPHUD"/>
+			<window name="playerStatsHUD"/>
+			<window name="playerZKPKDIcoChngHUD"/>
 			<window name="windowToolbelt" anchor="CenterBottom"/>
 			<window name="HUDLeftStatBars" anchor="LeftBottom"/>
 			<window name="HUDRightStatBars" anchor="RightBottom"/>
 			<window name="windowQuestTracker" anchor="RightTop"/>
 		</window_group>
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowVehicle"/>
 			<window name="windowNonPagingHeader"/>
 			<window name="windowVehicleStats"/>
@@ -110,9 +126,11 @@
 			<window name="mapInvites"/>
 		</window_group>
 		<window_group name="players">
+			<window name="mapTimeHUD"/>
 			<window name="players"/>
 		</window_group>
 		<window_group name="assemble" controller="XUiC_AssembleWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowAssemble"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -120,16 +138,19 @@
 			<window name="windowRadial"/>
 		</window_group>
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowSkillList"/>
 			<window name="windowSkillInfo"/>
 		</window_group>
 		<window_group name="quests" controller="XUiC_QuestWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowQuestList"/>
 			<window name="windowQuestDescription"/>
 			<window name="windowQuestObjectives"/>
 			<window name="windowQuestRewards"/>
 		</window_group>
 		<window_group name="journal" controller="XUiC_JournalWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowJournalList"/>
 			<window name="windowJournalEntryDescription"/>
 		</window_group>
@@ -145,6 +166,7 @@
 			<window name="GamepadCallouts"/>
 		</window_group>
 		<window_group name="trader" controller="XUiC_TraderWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowTrader"/>
 			<window name="windowNonPagingHeader"/>
 			<window name="serviceInfoPanel"/>
@@ -153,26 +175,31 @@
 			<window name="windowSignEdit"/>
 		</window_group>
 		<window_group name="powersource" controller="XUiC_PowerSourceWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowPowerSourceStats"/>
 			<window name="windowPowerSourceSlots"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="powertrigger" controller="XUiC_PowerTriggerWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowPowerTriggerOptions"/>
 			<window name="windowPowerCameraControlPreview"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="powerrangedtrap" controller="XUiC_PowerRangedTrapWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowPowerRangedTrapOptions"/>
 			<window name="windowPowerTrapSlots"/>
 			<window name="windowPowerCameraControlPreview"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="powercamera" controller="XUiC_PowerCameraWindowGroup" actionSet="controller">
+			<window name="mapTimeHUD"/>
 			<window name="windowPowerCameraControl"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<window_group name="powerspotlight" controller="XUiC_PoweredSpotlightWindowGroup">
+			<window name="mapTimeHUD"/>
 			<window name="windowPowerCameraControlPreview"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
