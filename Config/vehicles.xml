@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Defines the physical attributes of a vehicle -->
 <vehicles>
-    <vehicle name="minibike">
+	<vehicle name="minibike">
 		<property name="prefab" value="Entities/Vehicles/minibike_Prefab"/>
 		<property name="gravity_multiplier" value="1"/>
-		
 		<property class="chassis">
-			<property name="required" value="true" />
+			<property name="required" value="true"/>
 			<property name="class" value="Chassis"/>
 			<property name="display_name" value="chassis"/>
 			<property name="slot_type" value="chassis"/>
@@ -16,9 +14,8 @@
 			<property name="shocks_offset_max" value="chassis/maxPos"/>
 			<property name="part_damage_reduction" value="0.5"/>
 		</property>
-		
 		<property class="handlebars">
-			<property name="required" value="true" />
+			<property name="required" value="true"/>
 			<property name="class" value="Steering"/>
 			<property name="display_name" value="steering"/>
 			<property name="slot_type" value="handlebars"/>
@@ -33,34 +30,29 @@
 			<property name="part_damage_reduction" value="0.25"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="wheel0">
 			<property name="class" value="Wheel"/>
 			<property name="display_name" value="wheel"/>
 			<property name="parent_part" value="wheel1"/>
-			
 			<property name="mesh" value="front_wheel"/>
 			<property name="transform" value="Origin/handlebar_joint/frontWheel_joint"/>
 			<property name="shocks_offset_min" value="body/chassis/wheel/minPos"/>
 			<property name="shocks_offset_max" value="body/chassis/wheel/maxPos"/>
 		</property>
-		
-        <property class="wheel1">
-			<property name="required" value="true" />
+		<property class="wheel1">
+			<property name="required" value="true"/>
 			<property name="class" value="Wheel"/>
 			<property name="display_name" value="wheel"/>
 			<property name="slot_type" value="wheel"/>
 			<property name="parent_part" value="chassis"/>
-			
 			<property name="mesh" value="back_wheel"/>
 			<property name="transform" value="Origin/backWheelJoint"/>
 			<property name="shocks_offset_min" value="body/handlebars/wheel/minPos"/>
 			<property name="shocks_offset_max" value="body/handlebars/wheel/maxPos"/>
 			<property name="part_damage_reduction" value="0.1"/>
 		</property>
-
 		<property class="driver">
-			<property name="required" value="true" />
+			<property name="required" value="true"/>
 			<property name="class" value="Seat"/>
 			<property name="display_name" value="driverSeat"/>
 			<property name="slot_type" value="seat"/>
@@ -72,20 +64,17 @@
 			<property name="part_damage_reduction" value="0.5"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="battery">
-			<property name="required" value="true" />
+			<property name="required" value="true"/>
 			<property name="class" value="Battery"/>
 			<property name="display_name" value="battery"/>
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<!-- part_damage_reduction intentionally not set -->
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="engine">
-			<property name="required" value="true" />
+			<property name="required" value="true"/>
 			<property name="class" value="Engine"/>
 			<property name="display_name" value="engine"/>
 			<property name="slot_type" value="engine"/>
@@ -102,19 +91,16 @@
 			<property name="part_damage_reduction" value="0.5"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="exhaust">
 			<property name="class" value="Exhaust"/>
 			<property name="parent_part" value="engine"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 		</property>
-		
 		<property class="chain">
 			<property name="mesh" value="chain"/>
 			<property name="parent_part" value="engine"/>
 			<property name="transform" value="chain"/>
 		</property>
-		
 		<property class="horn">
 			<property name="class" value="Horn"/>
 			<property name="parent_part" value="handlebars"/>
@@ -122,7 +108,6 @@
 			<property name="transform" value="horn"/>
 			<property name="sound_honk" value="vehicle/minibike/minibike_horn"/>
 		</property>
-		
 		<property class="storage">
 			<property name="class" value="Storage"/>
 			<property name="display_name" value="basket"/>
@@ -132,25 +117,21 @@
 			<property name="part_damage_reduction" value="0.5"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
 			<property name="parent_part" value="handlebars"/>
 			<property name="transform" value="Origin/handlebar_joint/headlight"/>
 		</property>
-		
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
 			<property name="parent_part" value="engine"/>
 		</property>
-		
 		<property class="lock">
 			<property name="class" value="Lock"/>
 			<property name="slot_type" value="lock"/>
-			<property name="part_damage_reduction" value="0.75"/> 
+			<property name="part_damage_reduction" value="0.75"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
-		
 		<property class="ignition">
 			<property name="class" value="Ignition"/>
 			<property name="parent_part" value="engine"/>
