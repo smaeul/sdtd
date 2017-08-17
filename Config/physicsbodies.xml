@@ -1213,9 +1213,9 @@
 			<property name="collisionLayer" value="0"/>
 			<property name="ragdollLayer" value="0"/>
 			<property name="collisionScale" value="1 1 1"/>
-			<property name="ragdollScale" value="1 1 1"/>
+			<property name="ragdollScale" value="0.75 0.39 1"/>
 			<property name="collisionOffset" value="0 0 0"/>
-			<property name="ragdollOffset" value="0 0 0"/>
+			<property name="ragdollOffset" value="0 0 -0.08"/>
 			<property name="type" value="Detail"/>
 			<property name="flags" value="collision;ragdoll"/>
 		</collider>
@@ -1273,9 +1273,9 @@
 			<property name="collisionLayer" value="0"/>
 			<property name="ragdollLayer" value="0"/>
 			<property name="collisionScale" value="1 1 1"/>
-			<property name="ragdollScale" value="1 1 1"/>
+			<property name="ragdollScale" value="1 0.36 1"/>
 			<property name="collisionOffset" value="0 0 0"/>
-			<property name="ragdollOffset" value="0 0 0"/>
+			<property name="ragdollOffset" value="0 0.05 -0.08"/>
 			<property name="type" value="Detail"/>
 			<property name="flags" value="collision;ragdoll"/>
 		</collider>
@@ -1333,9 +1333,9 @@
 			<property name="collisionLayer" value="0"/>
 			<property name="ragdollLayer" value="0"/>
 			<property name="collisionScale" value="1 1 1"/>
-			<property name="ragdollScale" value="1 1 1"/>
+			<property name="ragdollScale" value="0.8 0.88 1"/>
 			<property name="collisionOffset" value="0 0 0"/>
-			<property name="ragdollOffset" value="0 0 0"/>
+			<property name="ragdollOffset" value="0 0.02 0"/>
 			<property name="type" value="Detail"/>
 			<property name="flags" value="collision;ragdoll"/>
 		</collider>
